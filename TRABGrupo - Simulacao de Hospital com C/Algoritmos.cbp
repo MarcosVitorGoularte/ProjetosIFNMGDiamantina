@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Algoritmos" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Algoritmos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Algoritmos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ArquivosC/Consultas/consultas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/FuncoesComplementares/aperte_enter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/FuncoesComplementares/funcoes_complementares.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/FuncoesComplementares/limpar_tela.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Medicos/medicos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Menus/menu_consulta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Menus/menu_inicial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Menus/menu_login.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Menus/menu_medicos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Menus/menu_pacientes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Pacientes/pacientes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArquivosC/Usuarios/login.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CabecalhosC/FuncoesComplementares/aperte_enter.h" />
+		<Unit filename="CabecalhosC/FuncoesComplementares/funcoes.h" />
+		<Unit filename="CabecalhosC/FuncoesComplementares/limpar_tela.h" />
+		<Unit filename="CabecalhosC/Medicos/medicos.h" />
+		<Unit filename="CabecalhosC/Menus/menu_cosultas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CabecalhosC/Menus/menu_inicial.h" />
+		<Unit filename="CabecalhosC/Menus/menu_login.h" />
+		<Unit filename="CabecalhosC/Menus/menu_medicos.h" />
+		<Unit filename="CabecalhosC/Usuarios/login.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

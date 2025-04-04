@@ -1,0 +1,460 @@
+# depslib dependency file v1.0
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\consultas\consultas.c
+
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\funcoescomplementares\funcoes_complementares.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741619901 c:\users\ifnmg\documents\algoritmos\cabecalhosc\funcoescomplementares\funcoes.h
+
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\funcoescomplementares\limpar_tela.c
+	<stdio.h>
+	<stdlib.h>
+
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\medicos\medicos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741619901 c:\users\ifnmg\documents\algoritmos\cabecalhosc\medicos\medicos.h
+
+1741619901 c:\users\ifnmg\documents\algoritmos\cabecalhosc\funcoescomplementares\limpar_tela.h
+
+1741622195 source:c:\users\ifnmg\documents\algoritmos\arquivosc\menus\menu_inicial.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_inicial.h"
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741619900 c:\users\ifnmg\documents\algoritmos\cabecalhosc\menus\menu_inicial.h
+
+1741619900 c:\users\ifnmg\documents\algoritmos\cabecalhosc\menus\menu_login.h
+
+1741619900 c:\users\ifnmg\documents\algoritmos\cabecalhosc\usuarios\login.h
+
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\menus\menu_login.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741619900 c:\users\ifnmg\documents\algoritmos\cabecalhosc\menus\menu_medicos.h
+
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\menus\menu_medicos.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\pacientes\pacientes.c
+
+1741619900 source:c:\users\ifnmg\documents\algoritmos\arquivosc\usuarios\login.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622154 source:c:\users\ifnmg\documents\algoritmos\main.c
+	<stdio.h>
+	"CabecalhosC/Menus/menu_inicial.h"
+
+1741622396 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\consultas\consultas.c
+
+1741623871 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\funcoescomplementares\funcoes_complementares.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741622396 c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\cabecalhosc\funcoescomplementares\funcoes.h
+
+1741622396 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\funcoescomplementares\limpar_tela.c
+	<stdio.h>
+	<stdlib.h>
+
+1741622396 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\medicos\medicos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741622396 c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\cabecalhosc\medicos\medicos.h
+
+1741622396 c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\cabecalhosc\funcoescomplementares\limpar_tela.h
+
+1741624688 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\menus\menu_inicial.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_inicial.h"
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622396 c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\cabecalhosc\menus\menu_inicial.h
+
+1741622396 c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\cabecalhosc\menus\menu_login.h
+
+1741622396 c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\cabecalhosc\usuarios\login.h
+
+1741624678 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\menus\menu_login.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622396 c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\cabecalhosc\menus\menu_medicos.h
+
+1741622396 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\menus\menu_medicos.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622396 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\pacientes\pacientes.c
+
+1741623503 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\arquivosc\usuarios\login.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622396 source:c:\users\ifnmg\downloads\algoritmos-20250310t125947z-001\algoritmos\main.c
+	<stdio.h>
+	"CabecalhosC/Menus/menu_inicial.h"
+
+1741622396 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\consultas\consultas.c
+
+1741660013 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\funcoescomplementares\funcoes_complementares.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741622396 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\funcoescomplementares\funcoes.h
+
+1741649757 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\funcoescomplementares\limpar_tela.c
+	<stdio.h>
+	<stdlib.h>
+
+1741661625 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\medicos\medicos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741622396 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\medicos\medicos.h
+
+1741622396 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\funcoescomplementares\limpar_tela.h
+
+1741660504 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\menus\menu_inicial.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_inicial.h"
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622396 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\menus\menu_inicial.h
+
+1741622396 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\menus\menu_login.h
+
+1741622396 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\usuarios\login.h
+
+1741649757 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\menus\menu_login.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622396 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\menus\menu_medicos.h
+
+1741649757 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\menus\menu_medicos.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741622396 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\pacientes\pacientes.c
+
+1741649757 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\usuarios\login.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741649757 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\main.c
+	<stdio.h>
+	"CabecalhosC/Menus/menu_inicial.h"
+
+1741661496 source:c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\arquivosc\funcoescomplementares\aperte_enter.c
+	<stdio.h>
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741661496 c:\users\marcos vitor goulate\onedrive\documentos\algoritmos\cabecalhosc\funcoescomplementares\aperte_enter.h
+
+1741690174 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\consultas\consultas.c
+
+1741690174 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\funcoescomplementares\aperte_enter.c
+	<stdio.h>
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\funcoescomplementares\aperte_enter.h
+
+1741692543 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\funcoescomplementares\funcoes_complementares.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\funcoescomplementares\funcoes.h
+
+1741690174 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\funcoescomplementares\limpar_tela.c
+	<stdio.h>
+	<stdlib.h>
+
+1741690174 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\medicos\medicos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\medicos\medicos.h
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\funcoescomplementares\limpar_tela.h
+
+1741690245 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\menus\menu_inicial.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_inicial.h"
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\menus\menu_inicial.h
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\menus\menu_login.h
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\usuarios\login.h
+
+1741690173 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\menus\menu_login.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741690174 c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\cabecalhosc\menus\menu_medicos.h
+
+1741690174 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\menus\menu_medicos.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741690173 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\pacientes\pacientes.c
+
+1741690174 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\arquivosc\usuarios\login.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741690173 source:c:\users\ifnmg\downloads\algoritmos-20250311t104905z-001\algoritmos\main.c
+	<stdio.h>
+	"CabecalhosC/Menus/menu_inicial.h"
+
+1741690174 source:c:\users\natanael\desktop\algoritmos\arquivosc\consultas\consultas.c
+
+1741692821 source:c:\users\natanael\desktop\algoritmos\arquivosc\funcoescomplementares\aperte_enter.c
+	<stdio.h>
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\funcoescomplementares\aperte_enter.h
+
+1741692543 source:c:\users\natanael\desktop\algoritmos\arquivosc\funcoescomplementares\funcoes_complementares.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\funcoescomplementares\funcoes.h
+
+1741690174 source:c:\users\natanael\desktop\algoritmos\arquivosc\funcoescomplementares\limpar_tela.c
+	<stdio.h>
+	<stdlib.h>
+
+1741914553 source:c:\users\natanael\desktop\algoritmos\arquivosc\medicos\medicos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\medicos\medicos.h
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\funcoescomplementares\limpar_tela.h
+
+1741690245 source:c:\users\natanael\desktop\algoritmos\arquivosc\menus\menu_inicial.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_inicial.h"
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\menus\menu_inicial.h
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\menus\menu_login.h
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\usuarios\login.h
+
+1741903324 source:c:\users\natanael\desktop\algoritmos\arquivosc\menus\menu_login.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741690174 c:\users\natanael\desktop\algoritmos\cabecalhosc\menus\menu_medicos.h
+
+1741690174 source:c:\users\natanael\desktop\algoritmos\arquivosc\menus\menu_medicos.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741967584 source:c:\users\natanael\desktop\algoritmos\arquivosc\pacientes\pacientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1741690174 source:c:\users\natanael\desktop\algoritmos\arquivosc\usuarios\login.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741690173 source:c:\users\natanael\desktop\algoritmos\main.c
+	<stdio.h>
+	"CabecalhosC/Menus/menu_inicial.h"
+
+1741907823 source:c:\users\natanael\desktop\algoritmos\arquivosc\menus\menu_pacientes.c
+	<stdio.h>
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\funcoescomplementares\aperte_enter.c
+	<stdio.h>
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\funcoescomplementares\aperte_enter.h
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\funcoescomplementares\funcoes_complementares.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\funcoescomplementares\funcoes.h
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\funcoescomplementares\limpar_tela.c
+	<stdio.h>
+	<stdlib.h>
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\medicos\medicos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\medicos\medicos.h
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\funcoescomplementares\limpar_tela.h
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\menus\menu_inicial.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_inicial.h"
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\menus\menu_inicial.h
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\menus\menu_login.h
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\usuarios\login.h
+
+1742081932 source:c:\users\gum01\desktop\algoritmos\arquivosc\menus\menu_login.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_login.h"
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/Menus/menu_pacientes.h"
+	"../../CabecalhosC/Menus/menu_consultas.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741957941 c:\users\gum01\desktop\algoritmos\cabecalhosc\menus\menu_medicos.h
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\menus\menu_medicos.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_medicos.h"
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\menus\menu_pacientes.c
+	<stdio.h>
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\pacientes\pacientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1741957941 source:c:\users\gum01\desktop\algoritmos\arquivosc\usuarios\login.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"../../CabecalhosC/Usuarios/login.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1741957940 source:c:\users\gum01\desktop\algoritmos\main.c
+	<stdio.h>
+	"CabecalhosC/Menus/menu_inicial.h"
+
+1742082865 source:c:\users\gum01\desktop\algoritmos\arquivosc\consultas\consultas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../CabecalhosC/Medicos/medicos.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+	"../../CabecalhosC/FuncoesComplementares/funcoes.h"
+	"../../CabecalhosC/FuncoesComplementares/aperte_enter.h"
+
+1742079386 source:c:\users\gum01\desktop\algoritmos\cabecalhosc\menus\menu_cosultas.c
+
+1742080905 source:c:\users\gum01\desktop\algoritmos\arquivosc\menus\menu_consulta.c
+	<stdio.h>
+	"../../CabecalhosC/Menus/menu_consultas.h"
+	"../../CabecalhosC/Consultas/consultas.h"
+	"../../CabecalhosC/FuncoesComplementares/limpar_tela.h"
+
+1742079386 c:\users\gum01\desktop\algoritmos\cabecalhosc\menus\menu_consultas.h
+
+1742080877 c:\users\gum01\desktop\algoritmos\cabecalhosc\consultas\consultas.h
+
+1742081972 c:\users\gum01\desktop\algoritmos\cabecalhosc\menus\menu_pacientes.h
+
