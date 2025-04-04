@@ -1,0 +1,117 @@
+{% extends 'usuarios/base.html' %}
+{% block conteudo %}
+<div class="container" style="padding: 0px 75px 150px 75px;">
+    <h1 style="text-align: center; padding-bottom: 30px; color: white;">Funcionários Cadastrados:</h1>
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Endereço</th>
+            <th>Atualizar</th>
+            <th>Excluir</th>
+        </tr>
+        {% for funcionario in funcionarios %}
+        <tr>
+            <td>{{funcionario.id_funcionario}}</td>
+            <td>{{funcionario.nome}}</td>
+            <td>{{funcionario.cpf}}</td>
+            <td>{{funcionario.endereco}}</td>
+            <td>
+                <a class="btn btn-primary" href="{% url 'editar_funcionario' funcionario.id_funcionario %}">Editar</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="{% url 'excluir_funcionario' funcionario.id_funcionario %}">Excluir</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<div class="container" style="padding: 0px 75px 150px 75px;">
+    <h1 style="text-align: center; padding-bottom: 30px; color: white;">Usuários Cadastrados:</h1>
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>ID</th>
+            <th>CPF</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Endereço</th>
+            <th>Atualizar</th>
+            <th>Excluir</th>
+        </tr>
+        {% for usuario in usuarios %}
+        <tr>
+            <td>{{usuario.id_usuario}}</td>
+            <td>{{usuario.cpf}}</td>
+            <td>{{usuario.nome}}</td>
+            <td>{{usuario.idade}}</td>
+            <td>{{usuario.endereco}}</td>
+            <td>
+                <a class="btn btn-primary" href="{% url 'editar_usuario' usuario.id_usuario %}">Editar</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="{% url 'excluir_usuario' usuario.id_usuario %}">Excluir</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+<div class="container" style="padding: 75px 75px 150px 75px; color: white;">
+    <h1 style="text-align: center; padding-bottom: 20px;">Produtos Cadastrados:</h1>
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Atualizar</th>
+            <th>Excluir</th>
+        </tr>
+        {% for produto in produtos %}
+        <tr>
+            <td>{{produto.id_produto}}</td>
+            <td>{{produto.nome}}</td>
+            <td>{{produto.descricao}}</td>
+            <td>{{produto.preco}}</td>
+            <td>
+                <a class="btn btn-primary" href="{% url 'editar_produto' produto.id_produto %}">Editar</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="{% url 'excluir_produto' produto.id_produto %}">Excluir</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<div class="container" style="padding: 75px 75px 150px 75px; color: white;">
+    <h1 style="text-align: center; padding-bottom: 20px;">Vendas</h1>
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>Número da Venda</th>
+            <th>Nome do Cliente</th>
+            <th>CPF do Cliente</th>
+            <th>Produtos Comprados</th>
+            <th>Endereço de Entrega</th>
+            <th>Valor da Compra</th>
+            <th>Nome do Lojista</th>
+            <th>CPF do Lojista</th>
+        </tr>
+        {% for venda in vendas %}
+        <tr>
+            <td>{{venda.numero_da_venda_realizada}}</td>
+            <td>{{venda.nome_cliente}}</td>
+            <td>{{venda.cpf_cliente.cpf}}</td>
+            <td>{{venda.produtos_comprados.nome}}</td>
+            <td>{{venda.endereco_entrega_cliente}}</td>
+            <td>{{venda.preco_venda}}</td>
+            <td>{{venda.nome_lojista}}</td>
+            <td>{{venda.cpf_funcionario_realizou_a_venda.cpf}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

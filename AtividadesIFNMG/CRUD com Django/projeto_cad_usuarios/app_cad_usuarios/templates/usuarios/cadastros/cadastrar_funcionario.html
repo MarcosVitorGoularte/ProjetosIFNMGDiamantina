@@ -1,0 +1,53 @@
+{% extends 'usuarios/base.html' %}
+{% block conteudo %}
+<script>
+    function validarFormulario() {
+        var cpfInput = document.getElementById('cpf');
+        var nomeInput = document.getElementById('nome');
+        var enderecoInput = document.getElementById('endereco');
+        var enviarBotao = document.getElementById('enviarBtn');
+        var mensagemErro = document.getElementById('mensagemErro');
+        var mensagemErronome = document.getElementById('mensagemErronome');
+        var mensagemErroendereco = document.getElementById('mensagemErroendereco');
+
+        var regexNumeros = /^[0-9]+$/;
+        var regexLetras = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
+
+        var cpfValido = cpfInput.value.length === 11 && regexNumeros.test(cpfInput.value);
+        var nomePreenchido = nomeInput.value.length > 0 && regexLetras.test(nomeInput.value);
+        var enderecoPreenchido = enderecoInput.value.length > 0
+
+        if (!cpfValido || !nomePreenchido || !enderecoPreenchido) {
+            enviarBotao.disabled = true;
+        } else {
+            enviarBotao.disabled = false;
+        }
+
+        mensagemErro.style.display = cpfValido ? 'none' : 'block';
+        mensagemErronome.style.display = nomePreenchido ? 'none' : 'block';
+        mensagemErroendereco.style.display = enderecoPreenchido ? 'none' : 'block';
+    }
+</script>
+
+<form action="{% url 'listagem_funcionarios' %}" method="post">
+    {% csrf_token %}
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 10px;"
+        class="container">
+        <h1 style="color: white; padding: 50px 20px 0px 20px; ">Cadastro de Funcionários</h1>
+        <span style="color: white;">CPF</span>
+        <input id="cpf" name="cpf" class="form-control-sm" type="text" oninput="validarFormulario()">
+        <div id="mensagemErro" style="color: rgb(255, 255, 255); display: block; font-size: 12px;">O CPF deve ter 11
+            dígitos.</div>
+        <span style="color: white;">Nome</span>
+        <input id="nome" name="nome" class="form-control-sm" type="text" oninput="validarFormulario()">
+        <div id="mensagemErronome" style="color: rgb(255, 255, 255); display: block; font-size: 12px;">O nome é um campo
+            obrigatório.</div>
+        <span style="color: white;">Endereço</span>
+        <input id="endereco" name="endereco" class="form-control-sm" type="text" oninput="validarFormulario()">
+        <div id="mensagemErroendereco" style="color: rgb(255, 255, 255); display: block; font-size: 12px;">O endereço é um campo
+            obrigatório.</div>
+        <button id="enviarBtn" class="form-control-sm" disabled>Enviar</button>
+    </div>
+</form>
+
+{% endblock %}

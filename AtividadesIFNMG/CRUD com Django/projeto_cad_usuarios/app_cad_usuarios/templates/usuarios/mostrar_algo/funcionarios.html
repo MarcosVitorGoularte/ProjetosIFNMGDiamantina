@@ -1,0 +1,31 @@
+{% extends 'usuarios/base.html' %}
+{% block conteudo %}
+<div class="container" style="padding: 0px 75px 150px 75px;">
+    <h1 style="text-align: center; padding-bottom: 30px; color: white;">Funcionários Cadastrados:</h1>
+    <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 30px;">
+        <form action="{% url 'excluir_alterar' %}" method="post">
+            {% csrf_token %}
+            <button id="enviarBtn" class="form-control-sm">Alterar/excluir dados das tabelas</button>
+        </form>
+    </div>
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Endereço</th>
+        </tr>
+        {% for funcionario in funcionarios %}
+        <tr>
+            <td>{{funcionario.id_funcionario}}</td>
+            <td>{{funcionario.nome}}</td>
+            <td>{{funcionario.cpf}}</td>
+            <td>{{funcionario.endereco}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+
+{% endblock %}

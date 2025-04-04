@@ -1,0 +1,41 @@
+{% extends 'usuarios/base.html' %}
+{% block conteudo %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+</head>
+
+<body>
+
+    <div class="center"
+        style="display: flex; justify-content: center; flex-direction: column;gap: 25px; height: 70vh;">
+        <span style="color: whitesmoke; font-size: clamp(3rem, 5vw, 6rem); text-align: center;">Escolha o seu tipo de cadastro:</span>
+        <div style="display: flex; flex-wrap: wrap; width: 100vw; justify-content: space-around;">
+            <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 25px;">
+                <span style="color: whitesmoke; font-size: clamp(2rem, 2.5vw, 4rem);">Cliente</span>
+                <a href="{% url 'cadastrar_usuario' %}"><img src="{% static 'images/cliente.png' %}"
+                        class="rounded mx-auto d-block" alt="Imagem cliente"
+                        style="max-height: 350px; background-color: beige; height: auto; width: 95%; max-width: max-content;"></a>
+            </div>
+            <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 25px;">
+                <span style="color: whitesmoke; font-size: clamp(2rem, 2.5vw, 4rem);">Funcionário</span>
+                <a href="{%url 'cadastrar_funcionario' %}"><img src="{% static 'images/funcionario.png' %}"
+                        class="rounded mx-auto d-block" alt="Imagem funcionário"
+                        style="max-height: 350px; background-color: beige; height: auto; width: 95%; max-width: max-content;"></a>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
+{% endblock %}
